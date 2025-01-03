@@ -1,37 +1,103 @@
-body{
+/* General styling */
+body {
     text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
 }
 
-.btn{
-    height:150px;
+/* Buttons */
+.btn {
+    height: 150px;
     width: 150px;
     border-radius: 15px;
     border: 2px solid black;
     margin: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.yellow{
+.yellow {
     background-color: #f99b45;
 }
 
-.red{
+.red {
     background-color: #d95980;
 }
 
-.purple{
+.purple {
     background-color: #819ff9;
 }
 
-.green{
+.green {
     background-color: #63aac0;
 }
 
-.flash{
+.flash {
     background-color: white;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 75px;
+        width: 75px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+.ClickBtn{
+    padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
