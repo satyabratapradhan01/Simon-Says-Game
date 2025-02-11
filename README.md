@@ -22,11 +22,5 @@ This is a simple Simon Says game built using JavaScript, HTML, and CSS. The game
 - `styles.css` - Handles the styling and layout of the game.
 - `script.js` - Contains the game logic and event handling.
 
-## Future Improvements
-- Add sound effects for better user experience.
-- Implement difficulty settings.
-- Enhance the UI/UX with animations and transitions.
-- Store high scores using local storage.
-
 Enjoy the game!
 
