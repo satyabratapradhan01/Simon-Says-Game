@@ -22,14 +22,6 @@ This is a simple Simon Says game built using JavaScript, HTML, and CSS. The game
 - `styles.css` - Handles the styling and layout of the game.
 - `script.js` - Contains the game logic and event handling.
 
-## Issues and Fixes
-### Issue: Incorrect Random Index Calculation
-In the `levelUp` function, the random index calculation should be:
-```js
-let randIdx = Math.floor(Math.random() * 4); // Should be 4 instead of 3
-```
-Fixing this ensures all four colors are used in the game.
-
 ## Future Improvements
 - Add sound effects for better user experience.
 - Implement difficulty settings.
