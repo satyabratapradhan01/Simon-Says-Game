@@ -17,7 +17,7 @@ This is a simple Simon Says game built using JavaScript, HTML, and CSS. The game
 - Score tracking
 - Game reset on failure
 
-## Files
+## File
 - `index.html` - Contains the structure of the game.
 - `styles.css` - Handles the styling and layout of the game.
 - `script.js` - Contains the game logic and event handling.
